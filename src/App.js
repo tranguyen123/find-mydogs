@@ -15,7 +15,7 @@ class App extends Component {
     score: 0
   };
 
-//when you click on a card ... the fish is taken out of the array
+//when you click on a card ... the aniamal is taken out of the array
   imageClick = event => {
     const currentAnimal = event.target.alt;
     const AnimalAlreadyClicked =
@@ -44,7 +44,7 @@ class App extends Component {
           ),
           score: this.state.score + 1
         },
-//if you get all 12 fish corrent you get a congrats message and the game resets        
+//if you get all 12 animals correct you get a congrats message and the game resets        
         () => {
           if (this.state.score === 12) {
             alert("Yay! You Win!");
@@ -64,7 +64,7 @@ class App extends Component {
 //the order of components to be rendered: navbar, jumbotron, friendcard, footer 
   render() {
     return (
-      <div>
+      <div> HERE!
         <Navbar 
           score={this.state.score}
         />
