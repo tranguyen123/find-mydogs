@@ -19,5 +19,5 @@
   "devDependencies": {
     "gh-pages": "^1.1.0"
   },
-  "engine" : "8.9.4"
+  "engine": "8.9.4"
 }
