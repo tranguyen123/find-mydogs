@@ -6,3 +6,4 @@ this game was designed to test the user memory, and I used very funny pictures o
 -Once the user's score is reset after an incorrect guess, the game should restart.
 Enjoy the game.
 
+# memo-game
